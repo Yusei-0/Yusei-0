@@ -4,7 +4,7 @@ import { Twit } from 'src/app/core/models/twit.model';
 @Component({
   selector: 'app-twit',
   templateUrl: './twit.component.html',
-  styleUrls: ['./twit.component.sass']
+  styleUrls: ['./twit.component.css']
 })
 export class TwitComponent implements OnInit {
 

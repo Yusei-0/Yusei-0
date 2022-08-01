@@ -16,6 +16,7 @@ import { SkillsModule } from './skills/skills.module';
     NotFoundComponent,
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     AppRoutingModule,
     ContactModule,
