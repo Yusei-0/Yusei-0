@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { EducationComponent } from './education/education.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    EducationComponent
+  ],
   imports: [
     CommonModule
   ]

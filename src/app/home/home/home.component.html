@@ -1,0 +1,21 @@
+<section class="presentation-container">
+    <h1>h1</h1>
+    <p>p</p>
+    <app-button-large-icon class="presentation-button-primary">
+        primary
+    </app-button-large-icon>
+
+    <app-button-large-icon  class="presentation-button-outline">
+        outline
+    </app-button-large-icon>
+</section>
+
+<section class="twits-container">
+    <div class="twit-title">
+        <h2>titulo</h2>
+        <span>i</span>
+    </div>
+    <div class="twit-article" *ngFor="let tw of twits">
+        <app-twit  class="twit-article" [twit]="tw"></app-twit>
+    </div>
+</section>

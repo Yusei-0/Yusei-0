@@ -8,6 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     NavbarComponent
   ],
+  exports:[
+    NavbarComponent
+  ],
   imports: [
     CommonModule
   ]
