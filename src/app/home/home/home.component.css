@@ -1,0 +1,60 @@
+
+.home-container{
+    background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
+    padding: 10px;
+}
+
+.presentation-container{
+    margin-top: 60px;
+}
+
+.presentation-container h1{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    color: var(--color-primary);
+}
+
+.presentation-container p{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: var(--grey-font);
+}
+
+.presentation-button-primary{
+    color: var(--soft-white);
+    background-color: var(--color-primary);
+}
+
+.twits-container{
+    margin-top: 60px;
+}
+.twit-section-title{
+    display: flex;
+    height: auto;
+    align-items: center;
+    
+}
+
+.twit-section-title h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--color-primary);
+}
+
+.twitter-icon{
+    margin-left: 20px;
+}
+
+.twit-article-container{
+    margin-top: 30px;
+}
+
+.twit-article{
+    display: flex;
+    flex-direction: column;
+}

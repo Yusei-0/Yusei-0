@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Twit } from 'src/app/core/models/twit.model';
+import { DataService } from 'src/app/core/services/data.service';
 
 @Component({
   selector: 'app-home',
@@ -10,9 +11,10 @@ export class HomeComponent implements OnInit {
 
   twits: Twit[]= [];
 
-  constructor() { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
+    this.twits = this.dataService.getTwitts
   }
 
 }

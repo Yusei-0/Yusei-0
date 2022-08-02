@@ -1,0 +1,51 @@
+.section-photo-names{
+    display: flex;
+}
+
+.twit-names{
+    display: inline;
+}
+.twitt-perfil-photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.twit-names{
+    margin-left: 10px;
+}
+
+.twit-names h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.twit-names p{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4ream;
+    color: #3d3d3d;
+}
+
+.twit-text{
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+.twit-hashtag{
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: blue;
+}
+
+.twit-icons{
+    display: flex;
+    margin-top: 5px;
+}
+
+.twit-icons app-icon{
+    margin-right: 45px;
+}

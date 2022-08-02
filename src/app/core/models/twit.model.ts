@@ -3,4 +3,6 @@ export interface Twit{
     name: string;
     username: string;
     text: string;
+    hashtag: string;
+    twitterUrl: string;
 }

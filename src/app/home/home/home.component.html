@@ -1,21 +1,30 @@
-<section class="presentation-container">
-    <h1>h1</h1>
-    <p>p</p>
-    <app-button-large-icon class="presentation-button-primary">
-        primary
-    </app-button-large-icon>
-
-    <app-button-large-icon  class="presentation-button-outline">
-        outline
-    </app-button-large-icon>
-</section>
-
-<section class="twits-container">
-    <div class="twit-title">
-        <h2>titulo</h2>
-        <span>i</span>
-    </div>
-    <div class="twit-article" *ngFor="let tw of twits">
-        <app-twit  class="twit-article" [twit]="tw"></app-twit>
-    </div>
-</section>
+<div class="home-container">
+    <section class="presentation-container">
+        <h1>Juseph Ortiz frontend developer</h1>
+        <p>Hola y bienvenido a mi github pages donde muestro mis habilidades y ofrezco mis servicio como freelancer.</p>
+    
+        <app-button-large-icon  class="presentation-button-primary"
+        [text]="'Conocer mas'"
+        [type]="'primary'"
+        [icon]="'arrow_forward.svg'">
+        </app-button-large-icon>
+    
+        <app-button-large-icon  class="presentation-button-outline"
+        [text]="'Descargar CV'"
+        [type]="'outline'"
+        [icon]="'file_download.svg'">
+        </app-button-large-icon>
+    </section>
+    
+    <section class="twits-container">
+        <div class="twit-section-title">
+            <h2>Siempre activo en twitter</h2>
+            <app-icon class="twitter-icon" 
+            [img]="'twitter'"></app-icon>
+        </div>
+        <div class="twit-article-container" *ngFor="let tw of twits">
+            <app-twit  class="twit-article" [twit]="tw"></app-twit>
+        </div>
+    </section>
+    
+</div>

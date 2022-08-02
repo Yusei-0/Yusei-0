@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { ButtonLargeIconComponent } from './components/button-large-icon/button-large-icon.component';
 import { TwitComponent } from './components/twit/twit.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { IconComponent } from './components/icon/icon.component';
+import { CoreModule } from '../core/core.module';
 
 
 
@@ -11,11 +13,13 @@ import { HomeRoutingModule } from './home-routing.module';
   declarations: [
     HomeComponent,
     ButtonLargeIconComponent,
-    TwitComponent
+    TwitComponent,
+    IconComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CoreModule
   ]
 })
 export class HomeModule { }

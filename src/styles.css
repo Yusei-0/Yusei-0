@@ -5,9 +5,19 @@
     --color-primary: #060348;
     --color-secondary:#B3A5FF;
     --color-terciary: #FFF9CB;
-    --grey-font: #393939;
+    --grey-font: #303030;
     --soft-black: #232323;
     --soft-white: #F8F8F8;
 }
 
 /*Fonts*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}

@@ -1,12 +1,19 @@
-<img [src]="twit.imgUrl" alt="Imagen de perfil en twitter">
-<h3>{{twit.name}}</h3>
-<p>{{twit.username}}</p>
+<section class="section-photo-names">
+    <img src="../../../../assets/img/twitter-perfil.jpg" alt="Imagen de perfil en twitter"
+    class="twitt-perfil-photo">
+    <div class="twit-names">
+        <h3>{{twit.name}}</h3>
+        <p>{{twit.username}}</p>
+        
+    </div>
+</section>
 <article>
-    <p>{{twit.text}}</p>
-    <div>
-        <span>i</span>
-        <span>i</span>
-        <span>i</span>
-        <span>i</span>
+    <p class="twit-text">{{twit.text}}</p>
+    <p class="twit-hashtag">{{twit.hashtag}}</p>
+    <div class="twit-icons">
+        <app-icon [img]="'chat'"></app-icon>
+        <app-icon [img]="'repeat'"></app-icon>
+        <app-icon [img]="'heart'"></app-icon>
+        <app-icon [img]="'share'"></app-icon>
     </div>
 </article>
