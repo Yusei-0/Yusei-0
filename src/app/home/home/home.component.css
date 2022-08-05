@@ -5,7 +5,11 @@
 }
 
 .presentation-container{
+    max-width: 320px;
+    max-width: 450px;
     margin-top: 60px;
+    text-align: left;
+    
 }
 
 .presentation-container h1{
