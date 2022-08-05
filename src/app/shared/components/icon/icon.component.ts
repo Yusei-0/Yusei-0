@@ -13,10 +13,15 @@ export class IconComponent implements OnInit {
     @Input()
     img:string = '';
 
+    @Input()
+    size:number = 24;
+
   constructor() { }
 
   ngOnInit(): void {
-    this.styles=`background-image: url('../../../../assets/icons/${this.img}.svg')`;
+    this.styles=`background-image: url('../../../../assets/icons/${this.img}.svg');
+    width: ${this.size}px;
+    height: ${this.size}px;`;
   }
 
 }
