@@ -1,5 +1,6 @@
 .section-photo-names{
     display: flex;
+    margin-bottom: 10px;
 }
 
 .twit-names{
@@ -44,6 +45,9 @@
 .twit-icons{
     display: flex;
     margin-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(36, 36, 36, 0.40);
 }
 
 .twit-icons app-icon{
