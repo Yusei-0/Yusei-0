@@ -4,7 +4,8 @@
         <app-icon [img]="'education'"></app-icon>
     </div>
     <section class="period-container">
-        <app-period *ngFor="let pd of periods">
+        <app-period *ngFor="let pd of periods"
+        [period]="pd">
         </app-period>
     </section>
 </div>
