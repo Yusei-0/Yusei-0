@@ -1,8 +1,16 @@
 <nav class="main-nav-bar">
     <ul class="nav-list">
-        <li><a routerLink="/home"></a></li>
-        <li><a routerLink="/education">Education</a></li>
-        <li><a routerLink="/skills">Skills</a></li>
-        <li><a routerLink="contact">Contact</a></li>
+        <li><a routerLink="/home" [routerLinkActive]="'active'">
+            <app-icon [img]="'home'" [size]="40"></app-icon>
+        </a></li>
+        <li><a routerLink="/education" routerLinkActive="active">
+            <app-icon [img]="'education'" [size]="40"></app-icon>
+        </a></li>
+        <li><a routerLink="/skills" routerLinkActive="active">
+            <app-icon [img]="'code'" [size]="40"></app-icon>
+        </a></li>
+        <li><a routerLink="/contact" routerLinkActive="active">
+            <app-icon [img]="'contact'" [size]="40"></app-icon>
+        </a></li>
     </ul>
 </nav>
