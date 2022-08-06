@@ -29,6 +29,10 @@
     text-align: center;
 }
 
+.call-to-action{
+    text-decoration: none;
+}
+
 .presentation-button-primary{
     color: var(--soft-white);
     background-color: var(--color-primary);
