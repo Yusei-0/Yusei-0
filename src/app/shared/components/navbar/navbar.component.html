@@ -1,15 +1,15 @@
 <nav class="main-nav-bar">
     <ul class="nav-list">
-        <li><a routerLink="/home">
+        <li><a routerLink="/home" [routerLinkActive]="'active'">
             <app-icon [img]="'home'" [size]="40"></app-icon>
         </a></li>
-        <li><a routerLink="/education">
+        <li><a routerLink="/education" routerLinkActive="active">
             <app-icon [img]="'education'" [size]="40"></app-icon>
         </a></li>
-        <li><a routerLink="/skills">
+        <li><a routerLink="/skills" routerLinkActive="active">
             <app-icon [img]="'code'" [size]="40"></app-icon>
         </a></li>
-        <li><a routerLink="/contact">
+        <li><a routerLink="/contact" routerLinkActive="active">
             <app-icon [img]="'contact'" [size]="40"></app-icon>
         </a></li>
     </ul>
