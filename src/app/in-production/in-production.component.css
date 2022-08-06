@@ -1,7 +1,8 @@
 .develop-container{
+    background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
     padding: 6%;
     text-align: center;
-    height: 10vh;
+    height: 100vh;
 }
 
 .develop-container h1{
@@ -11,4 +12,10 @@
     color: var(--color-primary);
     margin-top: 60px;
     margin-bottom: 10px;
+}
+
+.develop-icons{
+padding: 0 10%;
+display: flex;
+justify-content: space-around;
 }
