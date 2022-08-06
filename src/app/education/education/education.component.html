@@ -1,1 +1,12 @@
-<p>education works!</p>
+<div class="education-container">
+    <div class="education-header">
+        <h2>Education</h2>
+        <app-icon [img]="'education-blue'"
+        [size]="40"></app-icon>
+    </div>
+    <section class="period-container">
+        <app-period *ngFor="let pd of periods"
+        [period]="pd">
+        </app-period>
+    </section>
+</div>
