@@ -1,7 +1,7 @@
 
 .home-container{
     background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
-    padding: 10px;
+    padding: 10px 6%;
 }
 
 .presentation-container{
@@ -10,7 +10,6 @@
     margin-top: 60px;
     text-align: left;
     margin-bottom: 30px;
-    
 }
 
 .presentation-container h1{
@@ -27,6 +26,7 @@
     font-weight: 300;
     line-height: 1.8rem;
     color: var(--grey-font);
+    text-align: center;
 }
 
 .presentation-button-primary{
@@ -41,6 +41,7 @@
     display: flex;
     height: auto;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
