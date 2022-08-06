@@ -19,7 +19,7 @@ export class IconComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.styles=`background-image: url('../../../../assets/icons/${this.img}.svg');
+    this.styles=`background-image: url('/assets/icons/${this.img}.svg');
     width: ${this.size}px;
     height: ${this.size}px;`;
   }
