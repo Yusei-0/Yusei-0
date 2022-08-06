@@ -1,0 +1,28 @@
+.education-container{
+    background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
+   padding-top: 60px;
+   padding-bottom: 40px;
+}
+
+.education-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.education-header h2 {
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 5rem;
+    color: var(--color-primary);
+}
+
+.period-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6%;
+}
+
