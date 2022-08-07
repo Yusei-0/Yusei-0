@@ -1,16 +1,19 @@
 
 .home-container{
-    background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
-    padding: 10px 6%;
+    background: var(--grey-background);
+    /* padding: 10px 6%; */
     padding-bottom: 28px;
 }
 
 .presentation-container{
-    max-width: 320px;
+    min-width: 320px;
     max-width: 450px;
-    margin-top: 50px;
+    padding: 30px 6%;
     text-align: left;
-    margin-bottom: 30px;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentation-container h1{
@@ -18,7 +21,7 @@
     font-size: 3.2rem;
     font-weight: bold;
     line-height: 3.2rem;
-    color: var(--color-primary);
+    color: var(--just-white);
 }
 
 .presentation-container p{
@@ -30,17 +33,32 @@
     text-align: center;
 }
 
+.presentation-buttons-container{
+ background-color: var(--color-secondary);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin-top: 30px;
+ width: 290px;
+ padding: 8px;
+ border-radius: 15px;
+ height: 160px;
+}
+
 .call-to-action{
     text-decoration: none;
 }
 
 .presentation-button-primary{
-    color: var(--soft-white);
-    background-color: var(--color-primary);
+    margin-bottom: 30px;
 }
 
 .twits-container{
-    margin-top: 55px;
+    padding-top: 55px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 .twit-section-title{
     display: flex;
@@ -64,4 +82,5 @@
 .twit-article{
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }

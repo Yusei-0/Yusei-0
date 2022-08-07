@@ -2,15 +2,18 @@
 
 /* Global colors */
 :root{
-    --color-primary: #060348;
-    --color-secondary:#B3A5FF;
-    --color-terciary: #FFF9CB;
-    --grey-font: #303030;
+    --color-primary: #273B69;
+    --color-secondary:#1A2A52;
+    --color-terciary: #C5FEED;
+    --grey-background: #F3F5F7;
+    --grey-font: #D2D5DA;
+    --grey-font-dark: #77777a;
     --soft-black: #232323;
-    --soft-white: #F8F8F8;
+    --just-white: #FFFFFF;
+    --font-primary: sans-serif;
+    --font-secondary: 'Comfortaa', cursive;
 }
-
-/*Fonts*/
+/*html styles*/
 *{
     box-sizing: border-box;
     margin: 0;

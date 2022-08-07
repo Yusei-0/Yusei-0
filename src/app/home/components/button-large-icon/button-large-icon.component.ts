@@ -17,7 +17,7 @@ export class ButtonLargeIconComponent implements OnInit {
   icon: string = "No icon";
 
   @Input()
-  type: 'primary' | 'secondary'| 'outline'|'none' = 'none';
+  type: 'primary' | 'secondary'| 'terciary'|'outline'|'none' = 'none';
 
   constructor() { }
 

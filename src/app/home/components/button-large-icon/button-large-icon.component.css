@@ -2,31 +2,38 @@
     display: flex;
     width: 260px;
     height: 45px;
-    border-radius: 15px;
+    border-radius: 25px;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 1.8rem;
+    font-family: var(--font-secondary);
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.8rem;
 }
 
 .primary {
-    color: var(--soft-white);
+    color: var(--just-white);
     background-color: var(--color-primary);
+    
     border: none;
 }
 
 .secondary{
-    color: var(--soft-white);
+    color: var(--just-white);
     background-color: var(--color-secondary);
+    border: none;
+
+}
+
+.terciary{
+    color: var(--color-primary);
+    background-color: var(--color-terciary);
     border: none;
 }
 
 .outline{
     color: var(--color-primary);
-    background-color: var(--soft-white);
+    background-color: var(--just-white);
     border: 1px solid var(--color-primary);
 }
 

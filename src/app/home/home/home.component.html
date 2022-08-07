@@ -3,21 +3,23 @@
         <h1>Juseph Ortiz frontend developer</h1>
         <p>Hola y bienvenido a mi github pages donde muestro mis habilidades y ofrezco mis servicio como freelancer.</p>
         
-        <a routerLink="/education" class="call-to-action">
-            <app-button-large-icon  class="presentation-button-primary"
-            [text]="'Conocer mas'"
-            [type]="'primary'"
-            [icon]="'arrow_forward.svg'">
-            </app-button-large-icon>
-        </a>
-    
-        <a href="/assets/files/Juseph-Ortiz-CV.pdf" download class="call-to-action">
-            <app-button-large-icon  class="presentation-button-outline"
-            [text]="'Descargar CV'"
-            [type]="'outline'"
-            [icon]="'file_download.svg'">
-            </app-button-large-icon>
-        </a>
+        <div class="presentation-buttons-container">
+            <a routerLink="/education" class="call-to-action">
+                <app-button-large-icon  class="presentation-button-primary"
+                [text]="'Conocer mas'"
+                [type]="'terciary'"
+                [icon]="'arrow_forward-primary.svg'">
+                </app-button-large-icon>
+            </a>
+        
+            <a href="/assets/files/Juseph-Ortiz-CV.pdf" download class="call-to-action">
+                <app-button-large-icon  class="presentation-button-outline"
+                [text]="'Descargar CV'"
+                [type]="'outline'"
+                [icon]="'file_download.svg'">
+                </app-button-large-icon>
+            </a>
+        </div>
     </section>
     
     <section class="twits-container">

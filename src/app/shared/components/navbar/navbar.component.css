@@ -1,11 +1,12 @@
 
 nav{
-    background-color:  #f3eed3;
+    background-color: var(--just-white);
     width: 100%;
     position: fixed;
     overflow: hidden;
     bottom: 0;
-    border-top: 1px solid #0000009d;
+    padding: 5px 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .nav-list{
