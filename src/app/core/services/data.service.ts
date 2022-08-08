@@ -11,7 +11,7 @@ export class DataService {
     {
     imgUrl:'',
     name: 'El gato programador',
-    username: '@jusepheor_',
+    username: '@jusephortiz_',
     text: 'Cuando entiendes a la perfección flexbox y grid pierdes el miedo de maquetar cualquier cosa...',
     hashtag: '#CSS #flexbox #grid',
     twitterUrl: ''
@@ -19,7 +19,7 @@ export class DataService {
     {
     imgUrl:'',
     name: 'El gato programador',
-    username: '@jusepheor_',
+    username: '@jusephortiz_',
     text: 'A veces siento q es divertido programar todo desde cero sin ningún framework de por medio. Me hace sentir q  se bastante, eso hasta que las cosas se empiezan a complicar y en algún punto empiezo a traer librerías. Ya para ese punto había dejado de ser divertido',
     hashtag: '#easyframeworks',
     twitterUrl: ''
