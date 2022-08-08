@@ -1,5 +1,5 @@
 .develop-container{
-    background: linear-gradient(180deg, rgba(179, 165, 255, 0.6) 0%, #FFF9CB 100%);
+    background: var(--grey-background);
     padding: 6%;
     text-align: center;
     height: 100vh;
