@@ -2,6 +2,8 @@
     background-color: var(--just-white);
     padding: 10px 15px;
     border-radius: 15px;
+    min-width: 240px;
+    max-width: 450px;
 }
 
 .section-photo-names{
