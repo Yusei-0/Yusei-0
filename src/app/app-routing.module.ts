@@ -15,7 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'contact',
-    loadChildren: () => import('./in-production/in-production.module').then(m=> m.InProductionModule)  
+    loadChildren: () => import('./contact/contact.module').then(m=> m.ContactModule)  
   },
   {
     path: 'education',
