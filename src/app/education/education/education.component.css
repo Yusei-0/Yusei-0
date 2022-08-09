@@ -27,8 +27,9 @@
 }
 
 .education-header img{
-   min-width: 280px;
-   max-width: 600px;
+   height: 30vh;
+   /* min-width: 280px;
+   max-width: 600px; */
 
 }
 
