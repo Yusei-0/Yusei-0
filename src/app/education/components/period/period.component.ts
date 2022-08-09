@@ -12,7 +12,8 @@ export class PeriodComponent implements OnInit {
   period : Period = {
     start : '0000',
     finish : '0000',
-    description : 'Lorem ipsum doro...'
+    description : 'Lorem ipsum doro...',
+    img : ''
   }
 
   constructor() { }
