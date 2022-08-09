@@ -1,20 +1,25 @@
-.period-container{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 25px;
+.period-main{
+    /* display: flex; */
+    background-color: var(--just-white);
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-width: 260px;
+    max-width: 560px;
 }
 
-.period-container h3{
+.period-main h3{
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: var(--grey-font);
-    margin-bottom: 5px;
+    color: var(--soft-black);
+    margin-bottom: 10px;
+    display: inline;
 }
 
-.period-container p{
+.period-main p{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: var(--soft-black);
+    color: var(--grey-font-dark);
 }
