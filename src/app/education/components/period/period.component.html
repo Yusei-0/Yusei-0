@@ -1,7 +1,10 @@
-<article class="period-container">
-    <h3 class="period-range">
-        {{period.start}} - {{period.finish}}
-    </h3>
+<article class="period-main">
+    <div class="period-header">
+        <img [src]="'assets/img/'+period.img" alt="">
+        <h3 class="period-range">
+            {{period.start}} - {{period.finish}}
+        </h3>
+    </div>
     <p class="period-description">
         {{period.description}}
     </p>

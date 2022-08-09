@@ -30,22 +30,20 @@ export class DataService {
     {
       start : '2016',
       finish : '2018',
-      description : 'Mis estudios en programación comienzan en el 2016 cuando me comenzé a prepararme para el concurso de programación nacional sub 19. Esta preparación la hice en el Centro de entrenamiento Provincial de Santiago de Cuba situado en el IPVC Antonio Maceo. Como resultado de esta preparación en 2017 y 2018 obtuve medalla de plata nacional en estos concursos.'
-    },
-    {
-      start : '2018',
-      finish : '2019',
-      description: 'Pausa dramática para llorar por el año perdido en el servicio militar :('
+      description : 'Mis estudios en programación comienzan en el 2016 cuando me comenzé a prepararme para el concurso de programación nacional sub 19. Esta preparación la hice en el Centro de entrenamiento Provincial de Santiago de Cuba situado en el IPVC Antonio Maceo. Como resultado de esta preparación en 2017 y 2018 obtuve medalla de plata nacional en estos concursos.',
+      img : 'IPVCE.jfif'
     },
     {
       start : '2019',
       finish : 'Actual',
-      description: 'En el 2019 comienzo mis estudios universitarios en la UCI (Universidad de las Ciencias Informaticas) escuela donde me fue fácil adaptarme pues mis conocimientos previos en programación me fueron de muchas ayuda y me han permitido obtener resultados docentes sobresalientes.'
+      description: 'En el 2019 comienzo mis estudios universitarios en la UCI (Universidad de las Ciencias Informaticas) escuela donde me fue fácil adaptarme pues mis conocimientos previos en programación me fueron de muchas ayuda y me han permitido obtener resultados docentes sobresalientes.',
+      img: 'UCI.jfif'
     },
     {
       start : '2022',
       finish: 'Actual',
-      description : 'En marzo de 2022 obtuve la oportunidad de participar en un programa de estudios online sobre criptomonedas y smart contracts donde obtuve resultados sobresalientes y gané una beca para estudiar online en Platzi, plataforma que me está permitiendo llevar mis conocimientos a un nivel superior.'
+      description : 'En marzo de 2022 obtuve la oportunidad de participar en un programa de estudios online sobre criptomonedas y smart contracts donde obtuve resultados sobresalientes y gané una beca para estudiar online en Platzi, plataforma que me está permitiendo llevar mis conocimientos a un nivel superior.',
+      img: 'Platzi-redondo.webp'
     }
   ]
 

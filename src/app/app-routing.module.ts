@@ -19,7 +19,7 @@ const routes: Routes = [
   },
   {
     path: 'education',
-    loadChildren: () => import('./in-production/in-production.module').then(m=> m.InProductionModule)  
+    loadChildren: () => import('./education/education.module').then(m=> m.EducationModule)  
   },
   {
     path: 'skills',
