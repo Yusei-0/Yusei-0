@@ -13,7 +13,8 @@ export class PeriodComponent implements OnInit {
     start : '0000',
     finish : '0000',
     description : 'Lorem ipsum doro...',
-    img : ''
+    img : '',
+    school: ''
   }
 
   constructor() { }
