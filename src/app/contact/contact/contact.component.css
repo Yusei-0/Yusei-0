@@ -1,6 +1,6 @@
 .contact-container{
     background-color: var(--color-primary);
-    /* padding-bottom: 40px; */
+    /* padding-bottom: 20px; */
 }
 
 .contact-header{
@@ -29,6 +29,7 @@
     background-color: var(--grey-background);
     border-radius: 25px 25px 0 0;
     height: 100%;
+    padding-bottom: 45px;
 }
 
 
@@ -39,7 +40,7 @@
     justify-content: center;
 }
 
-.contact-header-information h3{
+.contact-main h3{
     font-size: 2.2rem;
     margin: 20px auto;
     color: var(--color-primary);
@@ -71,7 +72,21 @@
     margin-left: 8px;
 }
 .contact-header-socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }   
+
+.contact-header-socialmedia h3{
+    width: 240px;
+}
+
+.socialmedia-icons-container{
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+}
+
 .contact-header-socialmedia a{
     text-decoration: none;
     color: var(--soft-black);
