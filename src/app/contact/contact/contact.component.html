@@ -1,1 +1,48 @@
-<p>contact works!</p>
+<div class="contact-container">
+    <div class="contact-header">
+        <h2>Contácteme</h2>
+        <p class="contact-text">Aqui dejo mi información personal a solo un click suyo, asi como los enlaces a mis redes sociales. <strong>Contácteme</strong>  y emprendamos la creación de algo nuevo y maravilloso </p>
+    </div>
+    <div class="contact-main">
+        <section class="contact-information">
+            <!-- <h3>Presiona para ir a..</h3> -->
+            <a  href="https://wa.me/5354081085?text=Hola%20le%20contacto%20para%20" class="information-section" target="_blank">
+                <div class="img-information">
+                    <app-icon [img]="'whatsapp-color'" [size]="30"></app-icon>
+                </div>
+                <p>+5354081085</p>
+            </a>
+            <a href="mailto:elcorreoquequieres@correo.com?Subject=Hola%20le%20contacto%20para%20" class="information-section">
+                <div class="img-information">
+                    <app-icon [img]="'gmail-color'" [size]="30"></app-icon>
+                </div>
+                <p>acmnhc@gmail.com</p>
+            </a>
+        </section>
+        <section class="contact-socialmedia">
+            <h3> Sigueme en mis redes sociales</h3>
+            <div class="information-section socialmedia-icons-container">
+                <a href="https://www.linkedin.com/in/jusephortiz" class="img-information" target="_blank">
+                    <app-icon [img]="'linkedin-color'" [size]="30"></app-icon>
+                </a>
+                <a href="https://twitter.com/jusephortiz_" class="img-information" target="_blank">
+                    <app-icon [img]="'twitter-color'" [size]="30"></app-icon>
+                </a>
+                <a href="https://github.com/Yusei-0" class="img-information" target="_blank">
+                    <app-icon [img]="'github-color'" [size]="30"></app-icon>
+                </a>
+            </div>
+        </section>
+    </div>
+    <!-- <div class="contact-main">
+        <form action="">
+            <label>Tu nombre</label>
+            <input type="text" name="user_name">
+            <label>Tu correo</label>
+            <input type="email" name="user_email">
+            <label>Escribe un mensaje</label>
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div> -->
