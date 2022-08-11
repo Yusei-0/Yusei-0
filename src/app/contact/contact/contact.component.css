@@ -7,7 +7,7 @@
     color: var(--just-white);
     display: flex;
     flex-wrap: wrap;
-    padding: 0 6% 40px 6%;
+    padding: 0 6% 20px 6%;
 }
 
 .contact-header h2{
@@ -19,21 +19,21 @@
 
 .contact-header .contact-text{
     font-size: 1.4rem;
-    font-weight: 500px;
+    font-weight: 300;
     line-height: 1.8rem;
     color: var(--grey-font);
-    margin-bottom: 25px;
 }
 
 .contact-main{
     background-color: var(--grey-background);
     border-radius: 25px 25px 0 0;
     height: 100%;
-    padding-bottom: 45px;
+    padding-bottom: 25px;
 }
 
 
-.contact-header-information{
+.contact-information{
+    padding-top: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +46,7 @@
     color: var(--color-primary);
 }
 
-.header-information-section{
+.information-section{
     display: flex;
     align-items: center;
     width: 240px;
@@ -65,19 +65,19 @@
     align-items: center;
     margin: 8px;
 }
-.header-information-section p{
+.information-section p{
     font-size: 1.4rem;
     font-weight: 500;
     color: var(--grey-font-dark);
     margin-left: 8px;
 }
-.contact-header-socialmedia{
+.contact-socialmedia{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
 }   
 
-.contact-header-socialmedia h3{
+.contact-socialmedia h3{
     width: 240px;
 }
 
@@ -87,7 +87,7 @@ display: flex;
 justify-content: space-around;
 }
 
-.contact-header-socialmedia a{
+.contact-socialmedia a{
     text-decoration: none;
     color: var(--soft-black);
 }
