@@ -49,7 +49,7 @@
 .information-section{
     display: flex;
     align-items: center;
-    width: 240px;
+    width: 260px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: var(--just-white);
@@ -78,7 +78,7 @@
 }   
 
 .contact-socialmedia h3{
-    width: 240px;
+    width: 260px;
 }
 
 .socialmedia-icons-container{
