@@ -6,6 +6,10 @@
     max-width: 450px;
 }
 
+.twit-background a{
+    text-decoration: none;
+}
+
 .section-photo-names{
     display: flex;
     margin-bottom: 10px;
@@ -28,6 +32,7 @@
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.8rem;
+    color: var(--soft-black);
 }
 
 .twit-names p{
