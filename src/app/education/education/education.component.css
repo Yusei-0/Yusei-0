@@ -19,18 +19,10 @@
     font-weight: bold;
     line-height: 5rem;
     color: var(--just-white);
-    margin-bottom: 20px;
 }
 
 .education-header app-icon{
     margin-left: 20px;
-}
-
-.education-header img{
-   height: 30vh;
-   /* min-width: 280px;
-   max-width: 600px; */
-
 }
 
 .period-container{

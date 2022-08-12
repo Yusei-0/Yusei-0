@@ -4,13 +4,15 @@ import { EducationComponent } from './education/education.component';
 import { EducationRoutingModule } from './education-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { PeriodComponent } from './components/period/period.component';
+import { EducationImgComponent } from './components/education-img/education-img.component';
 
 
 
 @NgModule({
   declarations: [
     EducationComponent,
-    PeriodComponent
+    PeriodComponent,
+    EducationImgComponent
   ],
   imports: [
     CommonModule,
