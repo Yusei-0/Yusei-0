@@ -23,7 +23,7 @@ const routes: Routes = [
   },
   {
     path: 'skills',
-    loadChildren: () => import('./in-production/in-production.module').then(m=> m.InProductionModule)
+    loadChildren: () => import('./skills/skills.module').then(m=> m.SkillsModule)
   },
   {
     path: '**',
