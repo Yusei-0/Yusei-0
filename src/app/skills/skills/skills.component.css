@@ -80,3 +80,7 @@
     color: var(--grey-font-dark);
     margin-left: 8px;
 }
+
+.icon-star{
+   margin-left: 20px;
+}
