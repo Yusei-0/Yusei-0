@@ -30,7 +30,7 @@ export class DataService {
     {
       start : '2016',
       finish : '2018',
-      description : 'Mis estudios en programación comienzan en el 2016 cuando me comenzé a prepararme para el concurso de programación nacional sub 19. Esta preparación la hice en el Centro de entrenamiento Provincial de Santiago de Cuba situado en el IPVC Antonio Maceo. Como resultado de esta preparación en 2017 y 2018 obtuve medalla de plata nacional en estos concursos.',
+      description : 'Mis estudios en programación comienzan en el 2016 cuando me comenzé a prepararme para el concurso de programación nacional sub 19. Esta preparación la hice en el Centro de entrenamiento Provincial de Santiago de Cuba situado en el IPVCE Antonio Maceo. Como resultado de esta preparación en 2017 y 2018 obtuve medalla de plata nacional en estos concursos.',
       img : 'IPVCE.jfif',
       school: 'IPVCE'
     },
