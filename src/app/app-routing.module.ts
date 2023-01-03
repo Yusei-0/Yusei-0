@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { DesktopGuard } from './shared/guards/desktop.guard';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   },
   {
     path : 'home',
-    loadChildren : () => import('./home/home.module').then(m=> m.HomeModule)
+    loadChildren : () => import('./home/home.module').then(m=> m.HomeModule),
+    canActivate: [DesktopGuard]
   },
   {
     path: 'contact',
@@ -24,6 +26,10 @@ const routes: Routes = [
   {
     path: 'skills',
     loadChildren: () => import('./skills/skills.module').then(m=> m.SkillsModule)
+  },
+  {
+    path: 'desktop-error',
+    loadChildren: ()=> import('./desktop-error/desktop-error.module').then(m => m.DesktopErrorModule)
   },
   {
     path: '**',

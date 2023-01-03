@@ -36,7 +36,7 @@ export class DataService {
     },
     {
       start : '2019',
-      finish : 'Actual',
+      finish : '2022',
       description: 'En el 2019 comienzo mis estudios universitarios en la UCI (Universidad de las Ciencias Informaticas) escuela donde me fue fácil adaptarme pues mis conocimientos previos en programación me fueron de muchas ayuda y me han permitido obtener resultados docentes sobresalientes.',
       img: 'UCI.jfif',
       school: 'UCI'
