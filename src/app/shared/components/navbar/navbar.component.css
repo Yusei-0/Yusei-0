@@ -15,11 +15,44 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+
+.menu-container{
+    width: 40px;
+    text-align: center;
+}
 li{
     margin-bottom: 3px;
     padding-top: 2px;
     padding-bottom: 3px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.active{
-    background-color: red;
- }
+a{
+    width: 60px;
+    height: 32px;
+    border-radius: 20px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+   height: 100%;
+}
+p{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: var(--soft-black);
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.activebutton {
+background-color: var(--grey-background);
+}
