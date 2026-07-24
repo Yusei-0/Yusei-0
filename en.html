@@ -71,8 +71,21 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap"></noscript>
 </head>
 <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="cursor-aura" aria-hidden="true"></div>
     <div class="blob-bg"></div>
     <div class="blob-bg blob-2"></div>
+    <svg class="ambient-grid" viewBox="0 0 520 520" fill="none" aria-hidden="true">
+        <path class="draw-line" pathLength="1" d="M36 388C106 306 139 170 232 151C331 131 373 241 485 109" stroke="currentColor" stroke-width="1.4"/>
+        <path class="draw-line" pathLength="1" d="M70 132H196L260 68H444" stroke="currentColor" stroke-width="1"/>
+        <path class="draw-line" pathLength="1" d="M96 448H220L302 366H468" stroke="currentColor" stroke-width="1"/>
+        <path class="draw-line" pathLength="1" d="M157 214L236 293L318 211L396 289" stroke="currentColor" stroke-width="1"/>
+        <circle class="draw-line" pathLength="1" cx="232" cy="151" r="28" stroke="currentColor" stroke-width="1"/>
+        <circle class="draw-line" pathLength="1" cx="318" cy="211" r="44" stroke="currentColor" stroke-width="1"/>
+        <circle class="draw-line" pathLength="1" cx="396" cy="289" r="18" stroke="currentColor" stroke-width="1.2"/>
+        <line class="draw-line" pathLength="1" x1="70" y1="132" x2="96" y2="448" stroke="currentColor" stroke-width="0.8"/>
+        <line class="draw-line" pathLength="1" x1="444" y1="68" x2="468" y2="448" stroke="currentColor" stroke-width="0.8"/>
+    </svg>
 
     <nav class="navbar">
         <div class="nav-content">
@@ -303,8 +316,9 @@
         
         <footer class="footer">
             <p>Designed & Built by Juseph Ortiz</p>
-            <p class="footer-note">Developed with native HTML/CSS for maximum performance</p>
-        </footer>
+      </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" defer></script>
+    <script src="motion.js" defer></script>
 </body>
 </html>
